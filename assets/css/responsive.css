@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px){
+    .banner-parent{
+        display: none;
+    }
+    .trending__section , .footer__section{
+        padding: 0 32px;
+
+
+    }
+}
+@media screen and (max-width: 768px){
+    .hero__section{
+        display: none;
+    }
+    .trending__section{
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 425px){
+    .footer__parent{
+        flex-direction: column;
+        gap: 70px;
+    }
+
+}

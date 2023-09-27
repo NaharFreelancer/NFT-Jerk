@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -21,7 +22,7 @@
         <div class="container-fluid">
             <div class="menu__area">
                       
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#"> <img class="logo" src="./assets/images/NFT-logo.svg" alt=""></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +31,7 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 me-auto mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Featured</a>
+                            <a class="nav-link" aria-current="page" href="#">Featured</a>
                           </li>
                           <li class="nav-item ">
                             <a class="nav-link" href="#">NFTs</a>
@@ -42,9 +43,14 @@
                         
                       
                         <form class="d-flex me-auto" >
-                          <input class="form-control me-2" type="search" placeholder="Search collections and addresses" aria-label="Search">
+                          <input class="form-control" type="search"  placeholder=" Search collections and addresses" aria-label="Search">
                         </form>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Developers</a>
+                          </li>
+
+                         
+                          <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Developers
                             </a>
@@ -54,16 +60,20 @@
                               <li><hr class="dropdown-divider"></li>
                               <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                          </li>
-                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Connect Wallet</button>
+                          </li> -->
+                        <button class="btn btn-outline-success custom-2 custom" type="submit">Connect Wallet</button>
+                        <a class="icon" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
                       </div>
                     </div>
                   </nav>
+                  
                   <!-- navbar end -->
 
         </div>
     </div>
 </div>
+<hr>
                 
 <!-- Bootstrap Navbar End Here -->
 <div class="hero__section">
@@ -88,7 +98,7 @@
                         <div class="sale">
                             <div class="name">
                                 <h4 class="sub-title">FLOOR</h4>
-                                <h3 class="title-value">0.189</h3>
+                                <h3 class="title-value"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
     
                             </div>
                             <div class="hour">
@@ -103,21 +113,21 @@
                         <div class="banner-parent">
                             <div class="image">
                                 <img src="./assets/images/snake.avif" alt="">
-                                <p class="img-value">0.17</p>
+                                <p class="img-value"> <i class="fa-brands fa-ethereum"></i>  0.17</p>
                             </div>
                             <div class="image">
                                 <img src="./assets/images/snake.avif" alt="">
-                                <p class="img-value">0.17</p>
+                                <p class="img-value"> <i class="fa-brands fa-ethereum"></i>   0.67</p>
 
                             </div>
                             <div class="image">
                                 <img src="./assets/images/snake.avif" alt="">
-                                <p class="img-value">0.17</p>
+                                <p class="img-value"> <i class="fa-brands fa-ethereum"></i>  0.45</p>
 
                             </div>
                             <div class="image">
                                 <img src="./assets/images/snake.avif" alt="">
-                                <p class="img-value">0.17</p>
+                                <p class="img-value"><i class="fa-brands fa-ethereum"></i>  0.38</p>
 
                             </div>
                         </div>
@@ -140,26 +150,35 @@
 <div class="trending__section">
     <div class="container-fluid">
         <div class="trending__area">
-            <h2 class="trending-h2">Trending Collections</h2>
+            <div class="trending-parent">
+                <h2 class="trending-h2">Trending Collections</h2>
+                <button class="btn btn-outline-success custom-2 custom-3 " type="submit"><i class="fa-brands fa-ethereum"></i>  Ethereum</button>
+            </div>
 
             <div class="card-parent">
-                <div class="row">
-                    <div class="col-lg-3">
+                <div class="row g-4">
+
+
+                    <div class="col-12 col-md-6 col-xl-3">
                         <div class="card">
-                            <img src="./assets/images/parallel.avif" class="card-img-top" alt="...">
+                            <div class="img-parent">
+                                <img src="./assets/images/1.avif" class="card-img-top" alt="pic">
+                                <img class="img-child" src="./assets/images/diamond.avif" alt="">
+                            </div>
+                            
                             <div class="card-body">
-                              <h5 class="card-title">chicken brothko</h5>
-                              <p class="card-text">This project is a derivative of beef brothko. Creator has no effect on the floor.We only have chicken and fish collection. There will be no more collections.
-                                These projects are yours, not ours.</p>
+                              <h5 class="card-title">Otherside Vessels</h5>
+                              <p class="card-text">Each Vessel in the Otherside Vessels collection is occupied by a Shade, which will hatch into a Mara that, depending..
+                                </p>
                                 <div class="sale">
                                     <div class="name">
                                         <h4 class="sub-title">FLOOR</h4>
-                                        <h3 class="title-value">0.189</h3>
+                                        <h3 class="title-value new"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
             
                                     </div>
                                     <div class="hour">
                                         <h4 class="sub-title">24H SALES</h4>
-                                        <h3 class="title-value">763</h3>
+                                        <h3 class="title-value new">763</h3>
             
                                     </div>
             
@@ -170,22 +189,26 @@
         
 
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-12 col-md-6 col-xl-3">
                         <div class="card">
-                            <img src="./assets/images/parallel.avif" class="card-img-top" alt="...">
+                            <div class="img-parent">
+                                <img src="./assets/images/cloaks.avif" class="card-img-top" alt="pic">
+                                <img class="img-child" src="./assets/images/diamond.avif" alt="">
+                            </div>
+                            
                             <div class="card-body">
-                              <h5 class="card-title">chicken brothko</h5>
-                              <p class="card-text">This project is a derivative of beef brothko. Creator has no effect on the floor.We only have chicken and fish collection. There will be no more collections.
-                                These projects are yours, not ours.</p>
+                              <h5 class="card-title">Otherside Vessels</h5>
+                              <p class="card-text">Each Vessel in the Otherside Vessels collection is occupied by a Shade, which will hatch into a Mara that, depending..
+                                </p>
                                 <div class="sale">
                                     <div class="name">
                                         <h4 class="sub-title">FLOOR</h4>
-                                        <h3 class="title-value">0.189</h3>
+                                        <h3 class="title-value new"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
             
                                     </div>
                                     <div class="hour">
                                         <h4 class="sub-title">24H SALES</h4>
-                                        <h3 class="title-value">763</h3>
+                                        <h3 class="title-value new">763</h3>
             
                                     </div>
             
@@ -196,22 +219,26 @@
         
 
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-12 col-md-6 col-xl-3">
                         <div class="card">
-                            <img src="./assets/images/parallel.avif" class="card-img-top" alt="...">
+                            <div class="img-parent">
+                                <img src="./assets/images/sugar-town.avif" class="card-img-top" alt="pic">
+                                <img class="img-child" src="./assets/images/diamond.avif" alt="">
+                            </div>
+                            
                             <div class="card-body">
-                              <h5 class="card-title">chicken brothko</h5>
-                              <p class="card-text">This project is a derivative of beef brothko. Creator has no effect on the floor.We only have chicken and fish collection. There will be no more collections.
-                                These projects are yours, not ours.</p>
+                              <h5 class="card-title">Otherside Vessels</h5>
+                              <p class="card-text">Each Vessel in the Otherside Vessels collection is occupied by a Shade, which will hatch into a Mara that, depending..
+                                </p>
                                 <div class="sale">
                                     <div class="name">
                                         <h4 class="sub-title">FLOOR</h4>
-                                        <h3 class="title-value">0.189</h3>
+                                        <h3 class="title-value new"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
             
                                     </div>
                                     <div class="hour">
                                         <h4 class="sub-title">24H SALES</h4>
-                                        <h3 class="title-value">763</h3>
+                                        <h3 class="title-value new">763</h3>
             
                                     </div>
             
@@ -222,22 +249,26 @@
         
 
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-12 col-md-6 col-xl-3">
                         <div class="card">
-                            <img src="./assets/images/parallel.avif" class="card-img-top" alt="...">
+                            <div class="img-parent">
+                                <img src="./assets/images/diary.avif" class="card-img-top" alt="pic">
+                                <img class="img-child" src="./assets/images/diamond.avif" alt="">
+                            </div>
+                            
                             <div class="card-body">
-                              <h5 class="card-title">chicken brothko</h5>
-                              <p class="card-text">This project is a derivative of beef brothko. Creator has no effect on the floor.We only have chicken and fish collection. There will be no more collections.
-                                These projects are yours, not ours. bjhkijaijgkjhiai</p>
+                              <h5 class="card-title">Otherside Vessels</h5>
+                              <p class="card-text">Each Vessel in the Otherside Vessels collection is occupied by a Shade, which will hatch into a Mara that, depending..
+                                </p>
                                 <div class="sale">
                                     <div class="name">
                                         <h4 class="sub-title">FLOOR</h4>
-                                        <h3 class="title-value">0.189</h3>
+                                        <h3 class="title-value new"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
             
                                     </div>
                                     <div class="hour">
                                         <h4 class="sub-title">24H SALES</h4>
-                                        <h3 class="title-value">763</h3>
+                                        <h3 class="title-value new">763</h3>
             
                                     </div>
             
@@ -248,37 +279,172 @@
         
 
                     </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card">
+                            <div class="img-parent">
+                                <img src="./assets/images/1.avif" class="card-img-top" alt="pic">
+                                <img class="img-child" src="./assets/images/diamond.avif" alt="">
+                            </div>
+                            
+                            <div class="card-body">
+                              <h5 class="card-title">Otherside Vessels</h5>
+                              <p class="card-text">Each Vessel in the Otherside Vessels collection is occupied by a Shade, which will hatch into a Mara that, depending..
+                                </p>
+                                <div class="sale">
+                                    <div class="name">
+                                        <h4 class="sub-title">FLOOR</h4>
+                                        <h3 class="title-value new"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
+            
+                                    </div>
+                                    <div class="hour">
+                                        <h4 class="sub-title">24H SALES</h4>
+                                        <h3 class="title-value new">763</h3>
+            
+                                    </div>
+            
+                                </div>
+                              
+                            </div>
+                          </div>
+        
+
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card">
+                            <div class="img-parent">
+                                <img src="./assets/images/cloaks.avif" class="card-img-top" alt="pic">
+                                <img class="img-child" src="./assets/images/diamond.avif" alt="">
+                            </div>
+                            
+                            <div class="card-body">
+                              <h5 class="card-title">Otherside Vessels</h5>
+                              <p class="card-text">Each Vessel in the Otherside Vessels collection is occupied by a Shade, which will hatch into a Mara that, depending..
+                                </p>
+                                <div class="sale">
+                                    <div class="name">
+                                        <h4 class="sub-title">FLOOR</h4>
+                                        <h3 class="title-value new"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
+            
+                                    </div>
+                                    <div class="hour">
+                                        <h4 class="sub-title">24H SALES</h4>
+                                        <h3 class="title-value new">763</h3>
+            
+                                    </div>
+            
+                                </div>
+                              
+                            </div>
+                          </div>
+        
+
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card">
+                            <div class="img-parent">
+                                <img src="./assets/images/sugar-town.avif" class="card-img-top" alt="pic">
+                                <img class="img-child" src="./assets/images/diamond.avif" alt="">
+                            </div>
+                            
+                            <div class="card-body">
+                              <h5 class="card-title">Otherside Vessels</h5>
+                              <p class="card-text">Each Vessel in the Otherside Vessels collection is occupied by a Shade, which will hatch into a Mara that, depending..
+                                </p>
+                                <div class="sale">
+                                    <div class="name">
+                                        <h4 class="sub-title">FLOOR</h4>
+                                        <h3 class="title-value new"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
+            
+                                    </div>
+                                    <div class="hour">
+                                        <h4 class="sub-title">24H SALES</h4>
+                                        <h3 class="title-value new">763</h3>
+            
+                                    </div>
+            
+                                </div>
+                              
+                            </div>
+                          </div>
+        
+
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card">
+                            <div class="img-parent">
+                                <img src="./assets/images/diary.avif" class="card-img-top" alt="pic">
+                                <img class="img-child" src="./assets/images/diamond.avif" alt="">
+                            </div>
+                            
+                            <div class="card-body">
+                              <h5 class="card-title">Otherside Vessels</h5>
+                              <p class="card-text">Each Vessel in the Otherside Vessels collection is occupied by a Shade, which will hatch into a Mara that, depending..
+                                </p>
+                                <div class="sale">
+                                    <div class="name">
+                                        <h4 class="sub-title">FLOOR</h4>
+                                        <h3 class="title-value new"><i class="fa-brands fa-ethereum"></i>  0.189</h3>
+            
+                                    </div>
+                                    <div class="hour">
+                                        <h4 class="sub-title">24H SALES</h4>
+                                        <h3 class="title-value new">763</h3>
+            
+                                    </div>
+            
+                                </div>
+                              
+                            </div>
+                          </div>
+        
+
+                    </div>
+
+                    
+
+
+
                 </div>
+                
 
 
             </div>
-
+            <button class="btn btn-success custom-2 custom" type="submit">See More </button>
         </div>
     </div>
 </div>
 
 <!-- Footer Section Start Here--> 
-
+<hr>
 <div class="footer__section">
     <div class="container-fluid">
         <div class="footer__parent">
-            
+          <div class="left-parent">
             <div class="footer-menu">
 
                 <h3 class="footer-heading"> Developers</h3>
-                    <a href="#">Docs</a>
-                    <a href="#">API Reference</a>
-                    <a href="#">Github</a>
-                    <a href="#">Testnets</a>
+                    <a class="footer-text" href="#">Docs</a>
+                    <a class="footer-text" href="#">API Reference</a>
+                    <a class="footer-text" href="#">Github</a>
+                    <a class="footer-text" href="#">Testnets</a>
             </div>
             <div class="footer-menu">
 
                 <h3 class="footer-heading"> Company</h3>
-                    <a href="#">Jobs</a>
-                    <a href="#">Terms of Use</a>
-                    <a href="#">Github</a>
-                    <a href="#">Privacy Policy</a>
+                    <a class="footer-text" href="#">Jobs</a>
+                    <a class="footer-text" href="#">Terms of Use</a>
+                    <a class="footer-text" href="#">Privacy Policy</a>
             </div>
+          </div>  
+          
+            <div class="footer-menu">
+
+                <h3 class="footer-heading"> Join Reservoir Community</h3>
+                    <a class="icon new-" href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+
+
 
 
        
