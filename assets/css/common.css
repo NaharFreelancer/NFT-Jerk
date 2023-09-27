@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
    
 }
 
@@ -32,8 +32,8 @@ a {
 :root{
     --white : #fff;
 }
-.container {
-    max-width: 1170px;
+.container-fluid {
+    max-width: 1820px;
 } 
 
 

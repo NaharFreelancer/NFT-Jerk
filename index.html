@@ -7,90 +7,281 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
 </head>
 <body>
 <!-- Bootstrap Navbar Start Here -->
-<div class="hero__section">
-        <div class="container">
-            <div class="hero__area">
+<div class="menu__section">
+        <div class="container-fluid">
+            <div class="menu__area">
                       
-                <nav class="navbar navbar-expand-lg">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
-                    <a class="navbar-brand me-5" href="#">PortFolio<span class="dot">.</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <a class="navbar-brand" href="#"> <img class="logo" src="./assets/images/NFT-logo.svg" alt=""></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Skill</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 me-auto mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Featured</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="#">NFTs</a>
+                          </li>
+                          
+                          
                         </ul>
-                    
-                        <button class="btn btn-success" type="submit">Contact Me</button>
+
                         
+                      
+                        <form class="d-flex me-auto" >
+                          <input class="form-control me-2" type="search" placeholder="Search collections and addresses" aria-label="Search">
+                        </form>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Developers
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Connect Wallet</button>
+                      </div>
                     </div>
-                    </div>
-                </nav>
-                <!-- Hero Content Start Here -->
+                  </nav>
+                  <!-- navbar end -->
+
+        </div>
+    </div>
+</div>
+                
 <!-- Bootstrap Navbar End Here -->
+<div class="hero__section">
+       
+    <div class="container-fluid">
+            <div class="hero_bg">
+                <div class="section_blur"></div>
+                
+            <div class="row">
+                <div class="col-lg-7">
+                    <img class="img-fluid banner-img position-relative z-2" src="./assets/images/NFT-bg.avif" alt="pic">
+
+                </div>
+            <div class="col-lg-5">
+                <div class="hero_right_content position-relative z-4">
+                        <h2 class="heading-h2">JERKS</h2>
+                        <p class="content">
+                            Jerks is an exclusive pfp collection comprising 690 1/1 NFTs meticulously crafted by
+                             a league of 40+ eminent digital artists. Each token represents a unique character, personified with its own distinctive name,
+                             bringing a world of individuality and creativity to life within the realm of Meme arts.
+                        </p>
+                        <div class="sale">
+                            <div class="name">
+                                <h4 class="sub-title">FLOOR</h4>
+                                <h3 class="title-value">0.189</h3>
+    
+                            </div>
+                            <div class="hour">
+                                <h4 class="sub-title">24H SALES</h4>
+                                <h3 class="title-value">763</h3>
+    
+                            </div>
+    
+                        </div>
+
+                        <h4 class="sub-title">RECENT SALES</h4>
+                        <div class="banner-parent">
+                            <div class="image">
+                                <img src="./assets/images/snake.avif" alt="">
+                                <p class="img-value">0.17</p>
+                            </div>
+                            <div class="image">
+                                <img src="./assets/images/snake.avif" alt="">
+                                <p class="img-value">0.17</p>
+
+                            </div>
+                            <div class="image">
+                                <img src="./assets/images/snake.avif" alt="">
+                                <p class="img-value">0.17</p>
+
+                            </div>
+                            <div class="image">
+                                <img src="./assets/images/snake.avif" alt="">
+                                <p class="img-value">0.17</p>
+
+                            </div>
+                        </div>
+
+                        <button class="btn btn-success custom-2" type="submit">Explore Collection </button>
+                       
+                </div>
+                    
+                </div>
+        </div>
+            </div>
+
+    </div>
+</div>
 
 
 
 
 <!-- Content Section Start here -->
+<div class="trending__section">
+    <div class="container-fluid">
+        <div class="trending__area">
+            <h2 class="trending-h2">Trending Collections</h2>
+
+            <div class="card-parent">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./assets/images/parallel.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">chicken brothko</h5>
+                              <p class="card-text">This project is a derivative of beef brothko. Creator has no effect on the floor.We only have chicken and fish collection. There will be no more collections.
+                                These projects are yours, not ours.</p>
+                                <div class="sale">
+                                    <div class="name">
+                                        <h4 class="sub-title">FLOOR</h4>
+                                        <h3 class="title-value">0.189</h3>
+            
+                                    </div>
+                                    <div class="hour">
+                                        <h4 class="sub-title">24H SALES</h4>
+                                        <h3 class="title-value">763</h3>
+            
+                                    </div>
+            
+                                </div>
+                              
+                            </div>
+                          </div>
+        
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./assets/images/parallel.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">chicken brothko</h5>
+                              <p class="card-text">This project is a derivative of beef brothko. Creator has no effect on the floor.We only have chicken and fish collection. There will be no more collections.
+                                These projects are yours, not ours.</p>
+                                <div class="sale">
+                                    <div class="name">
+                                        <h4 class="sub-title">FLOOR</h4>
+                                        <h3 class="title-value">0.189</h3>
+            
+                                    </div>
+                                    <div class="hour">
+                                        <h4 class="sub-title">24H SALES</h4>
+                                        <h3 class="title-value">763</h3>
+            
+                                    </div>
+            
+                                </div>
+                              
+                            </div>
+                          </div>
+        
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./assets/images/parallel.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">chicken brothko</h5>
+                              <p class="card-text">This project is a derivative of beef brothko. Creator has no effect on the floor.We only have chicken and fish collection. There will be no more collections.
+                                These projects are yours, not ours.</p>
+                                <div class="sale">
+                                    <div class="name">
+                                        <h4 class="sub-title">FLOOR</h4>
+                                        <h3 class="title-value">0.189</h3>
+            
+                                    </div>
+                                    <div class="hour">
+                                        <h4 class="sub-title">24H SALES</h4>
+                                        <h3 class="title-value">763</h3>
+            
+                                    </div>
+            
+                                </div>
+                              
+                            </div>
+                          </div>
+        
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="./assets/images/parallel.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">chicken brothko</h5>
+                              <p class="card-text">This project is a derivative of beef brothko. Creator has no effect on the floor.We only have chicken and fish collection. There will be no more collections.
+                                These projects are yours, not ours. bjhkijaijgkjhiai</p>
+                                <div class="sale">
+                                    <div class="name">
+                                        <h4 class="sub-title">FLOOR</h4>
+                                        <h3 class="title-value">0.189</h3>
+            
+                                    </div>
+                                    <div class="hour">
+                                        <h4 class="sub-title">24H SALES</h4>
+                                        <h3 class="title-value">763</h3>
+            
+                                    </div>
+            
+                                </div>
+                              
+                            </div>
+                          </div>
+        
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <!-- Footer Section Start Here--> 
 
 <div class="footer__section">
-    <div class="container">
-        <div class="footer__area">
-            <div class="footer_logo">
-                <a href="#">PortFolio <span class="dot">.</span></a>
+    <div class="container-fluid">
+        <div class="footer__parent">
+            
+            <div class="footer-menu">
 
+                <h3 class="footer-heading"> Developers</h3>
+                    <a href="#">Docs</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Github</a>
+                    <a href="#">Testnets</a>
             </div>
             <div class="footer-menu">
-                
-                    <a href="#">Home</a>
-                    <a href="#">Skill</a>
-                    <a href="#">Project</a>
-                    <a href="#">Contact</a>
+
+                <h3 class="footer-heading"> Company</h3>
+                    <a href="#">Jobs</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Github</a>
+                    <a href="#">Privacy Policy</a>
             </div>
 
-            <hr>
 
-            <div class="footer-privacy">
-                <div>
-                    <a href="#">© Copyrights 2023. All Reserved</a>
-                </div>
-
-                <div class="policy">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms and Condition</a>
-                </div>
-
-        </div>
-
-
+       
 
         </div>
     </div>
